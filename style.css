@@ -1,0 +1,58 @@
+/* Общие стили */
+  background-color: #1a252f;
+}
+
+/* Соцсети */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  background-color: #34495e;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+  background-color: #1abc9c;
+}
+
+/* Подвал */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #ecf0f1;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+/* Адаптация под мобильные устройства */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  form input,
+  form textarea {
+    font-size: 1rem;
+  }
+
+  form button {
+    width: 100%;
+  }
+}
